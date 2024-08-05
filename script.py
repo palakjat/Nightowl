@@ -8,7 +8,7 @@ import requests
 
 # Define functions to send messages via Telegram
 def telegram_bot_sendques(bot_message):
-    bot_token = '7458517132:AAHB27q6kC-vuf3a4VUNPTD4ZN0X3-vaIIQ
+    bot_token = '7458517132:AAHB27q6kC-vuf3a4VUNPTD4ZN0X3-vaIIQ'
     bot_chatID = '5415891245'
     send_text = 'https://api.telegram.org/bot' + bot_token + '/sendMessage?chat_id=' + bot_chatID + \
                 '&parse_mode=MarkdownV2&text=' + str(bot_message).replace('.', '\\.')  # Escape the dot character

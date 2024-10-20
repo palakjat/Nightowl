@@ -55,7 +55,6 @@ time.sleep(3)
         time.sleep(3)
 
 
-
 telegram_bot_sendtext(login_text)
 
 # Navigate to the authoring page
